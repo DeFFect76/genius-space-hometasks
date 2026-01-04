@@ -1,0 +1,198 @@
+:root {
+    --color-dark: #011C44;
+    --color-blue: #2B7FFF;
+    --color-white: #ffffff;
+    --color-grey: #747272;
+}
+address {
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+.title {
+    color: var(--color-blue);
+    font-size: 140px;
+    font-weight: 700;
+    font-family: 'play', sans-serif;
+    line-height: 0,8;
+}
+.button {
+    border-color: #2a7fff;
+    border-radius: 32px;
+        padding: 16px 32px;
+        width: 219px;
+        height: 53px;
+        font-weight: 600;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+        background-color: var(--color-blue);
+color: var(--color-white);
+white-space: nowrap;
+}
+.button:hover {
+ background: transparent;
+border-color: #2a7fff;
+color: var(--color-dark);
+}
+.button:focus {
+    background: transparent;
+    border-color: #2a7fff;
+    color: var(--color-dark);
+}
+.link {
+    color: var(--color-dark);
+    text-decoration: none;
+        font-size: 18px;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+}
+.link:hover {
+    color: var(--color-blue);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.higher-title {
+    color: var(--color-dark);
+        font-size: 18px;
+}
+.under-title {
+    color: #4A4A4A;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.second-title {
+    color: var(--color-dark);
+    text-align: left;
+    font-family: 'play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+.second-title .accent {
+    color: var(--color-blue);
+}
+.text {
+    color: var(--color-dark);
+    line-height: 1.72;
+    line-height: 1.7;
+}
+.text .text-span {
+    font-weight: 600;
+}
+.third-title {
+    color: var(--color-dark);
+    text-align: center;
+    font-family: 'play', sans-serif;
+    font-weight: 700;
+        font-size: 64px;
+}
+.third-title .accent {
+    color: var(--color-blue);
+}
+.fourth-title {
+    color: var(--color-dark);
+    text-align: center;
+    font-family: 'play', sans-serif;
+    font-weight: 700;
+        font-size: 64px;
+}
+.fourth-title .accent {
+    color: var(--color-blue);
+}
+.fifth-title {
+    color: var(--color-dark);
+    text-align: center;
+    font-family: 'play', sans-serif;
+    font-weight: 700;
+        font-size: 64px;
+}
+.fifth-title .accent {
+    color: var(--color-blue);
+}
+.finish {
+    color: var(--color-white);
+    font-weight: 600;
+}
+.finish .accent {
+    color: var(--color-blue);
+}
+.why1 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.why2 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: center;
+}
+.why3 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: right;
+}
+.procedurs {
+    color: var(--color-white);
+    line-height: 1.1;
+}
+.button-below {
+border-radius: 32px;
+    padding: 16px 32px;
+    width: 281px;
+    height: 53px;
+font-weight: 600;
+    font-size: 18px;
+    border-color: #2a7fff;
+        font-family: 'Roboto', sans-serif;
+        color: var(--color-white);
+        background-color: var(--color-blue);
+        white-space: nowrap;
+}
+
+.button-below:hover {
+    background: transparent;
+    border-color: #2a7fff;
+    color: var(--color-dark);
+}
+
+.button-below:focus {
+    background: transparent;
+    border-color: #2a7fff;
+    color: var(--color-dark);
+}
+.politic {
+    color: var(--color-grey);
+    font-size: 12px;
+    line-height: 1.5;
+}
+.politic .accent {
+    color: var(--color-grey);
+    text-decoration: underline;
+}
+.deffend {
+    color: var(--color-grey);
+    font-size: 13px;
+}
+.footer-link {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer-link:hover {
+    color: var(--color-blue);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
